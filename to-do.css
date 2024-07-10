@@ -1,0 +1,89 @@
+.background {
+  background-color: rgba(12, 2, 25, 0.863);
+  width: fill;
+  height: 800px;
+  margin-top: 0;
+  color: white;
+}
+.to-do-bar {
+  background-color: green;
+  height: 50px;
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+.wrap {
+  background-color: white;
+  height: 550px;
+  width: 470px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.input {
+  height: 30px;
+  width: 170px;
+  justify-content: center;
+  margin-left: 70px;
+  margin-top: 20px;
+  display: inline;
+}
+.submit-button {
+  object-fit: cover;
+  background-color: red;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 20px;
+  display: inline;
+  border-color: solid;
+  border-radius: 20px;
+  border: none;
+  width: 80px;
+}
+.submit-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: background-color 1s;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list {
+  color: black;
+  font-size: 20px;
+  justify-content: center;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border: 2px;
+  border-color: black;
+}
+.cross {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 10px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-top: 15px;
+  border: none;
+  color: black;
+}
+.cross:hover {
+  background-color: black;
+  color: red;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hidden {
+  display: none;
+}
